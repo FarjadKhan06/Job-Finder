@@ -1,0 +1,31 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Scraped data (commit schema, not raw dumps)
+data/*.json
+data/*.csv
+
+# Node / Next.js (for later)
+node_modules/
+.next/
+.vercel/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
