@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import JobCard from "@/components/JobCard";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 const LIMIT = 12;
 
 type Job = {
